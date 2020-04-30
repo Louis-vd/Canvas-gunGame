@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(56, 55, 55);
+}
+
+canvas {
+    background-image: url("images/nebula.jpg");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    display: block;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+h1{
+    color:white;
+    text-align:center;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    padding: 25px;
+   
+        
+        color: #fff;
+        text-align: center;
+        -webkit-animation: glow 4s ease-in-out infinite alternate;
+        -moz-animation: glow 4s ease-in-out infinite alternate;
+        animation: glow 4s ease-in-out infinite alternate;
+      }
+      
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #060549, 0 0 40px #060549, 0 0 50px #060549, 0 0 60px #060549, 0 0 70px #060549;
+        }
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px #52c5e2, 0 0 40px #52c5e2, 0 0 50px #52c5e2, 0 0 60px #52c5e2, 0 0 70px #52c5e2, 0 0 80px #52c5e2;
+        }
+      }
+
+.score{
+    text-align:center;
+    color:white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
